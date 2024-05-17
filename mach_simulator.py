@@ -28,7 +28,7 @@ sprite_color = RED
 sprite_x, sprite_y = 0, screen_center[1]
 mach_1_velocity = 1
 sprite_velocity = float(sys.argv[1]) * mach_1_velocity
-sprite_acceleration = float(sys.argv[2] * mach_1_velocity)
+sprite_acceleration = float(sys.argv[2]) * mach_1_velocity
 
 frames_passed = 0
 # how many frames pass before a new sound wave is generated
